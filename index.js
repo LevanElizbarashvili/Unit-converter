@@ -21,4 +21,6 @@ function calcu() {
     let meterValue = value * 0.3048
     let m = meterValue.toFixed(3)
     document.getElementById("lengthInFeet").textContent = value + " Metters = " + f + " Feet" + " | " + value + " Feet = " + m + " Metters";
+
+    console.log("hi")
 }
